@@ -1,0 +1,122 @@
+body{
+    background-color: #F3F6FC;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .textCont{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+  }
+
+  @media screen and (max-width: 1400px) {
+    .elementor-row{
+        flex-direction: column !important;
+    }
+    .imgCont{
+        width: 100% !important;
+    }
+    img{
+        margin: 0 auto;
+    }
+    .textCont{
+        width: 100% !important;
+    }
+    .imgCont img{
+        display: none !important;
+    }
+    .imgCont{
+        display: none !important;
+    }
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+    .textCont{
+        margin: 0%;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+  
+  }
+
+p{
+    font-weight: 400;
+    color: #585B78;
+    font-family: "Syne", Sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 70px;
+    color: #313456;
+    font-weight: 700;
+    font-family: "Syne", Sans-serif;
+}
+.flexBox{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.elementor-row {
+    width: 100%;
+    display: flex;
+}
+
+img{
+    height: 100vh;
+    width: 600px;
+    justify-content: center;
+
+}
+
+.imgCont{
+    vertical-align: middle;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 80px;
+    display: flex;
+}
+
+.textCont{
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 50%;
+    margin: 0px 80px 0px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Syne", Sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 33px 20px 33px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #4F8AFB 0%, #1068EB 100%);
+
+}
